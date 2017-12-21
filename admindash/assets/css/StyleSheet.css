@@ -1,0 +1,64 @@
+﻿.GridViewEditRow input[type=text] {
+    width: 50px;
+    height: 20px;
+}
+/* size textboxes */
+.GridViewEditRow select {
+    width: 50px;
+}
+/* size drop down lists */
+.col {
+    word-wrap: break-word;
+}
+
+.gridView {
+    table-layout: fixed;
+}
+
+.header {
+    width: 100%;
+}
+
+#ContentPlaceHolder1_GridView1 tr.rowHover:hover
+
+{
+font-weight: bold;
+}
+
+.divider {
+    width: 15px;
+    height: auto;
+    display: inline-block;
+}
+
+.center-div {
+    margin: 0 auto;
+    width: 300px;
+    height: 75px;
+    background-color: #ccc;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.center-div2 {
+    width: 420px;
+    height: 570px;
+    background-color: #ccc;
+    border-radius: 3px;
+    padding-left: 0.5cm;
+    padding-top: 0.5cm;
+}
+
+td {
+    cursor: pointer;
+}
+
+.hover_row {
+    background-color: #A1DCF2;
+}
+#ContentPlaceHolder1_container2 {
+width: 960px;
+position: relative;
+margin:0 auto;
+line-height: 1.4em;
+}

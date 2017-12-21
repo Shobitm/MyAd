@@ -1,0 +1,105 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="admindash_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head runat="server">
+    <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            height: 80px;
+            width: 1000px;
+        }
+        .auto-style2 {
+            height: 500px;
+            width: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form2" runat="server">
+    <div>
+    <table style="font-family:Arial">
+        <tr>
+            <td style="width:150px; height:80px; background-color:#9D0000";>
+                <h3 style="color:#FFFFFF">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MyAD</h3>
+            </td>
+            <td style="background-color:#FFFFFF"; class="auto-style1">
+                
+            </td>
+        </tr>
+
+        <tr>
+            <td style="width:150px; height:500px; background-color:#FF5050";>
+                
+                <asp:Button ID="Button2"  runat="server" Text="Users"  Height="30px" Width="150px" BackColor="White" OnClick="Button2_Click"  />
+
+
+                &nbsp;<asp:Button ID="Button1"  runat="server" Text="Requests" Height="30px" Width="150px"  BackColor="White"  OnClick="Button1_Click"/>
+                
+                <br />
+                <br />
+                <br />
+                
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                
+                <br />
+                <br />
+                
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                
+            </td>
+            <td style="background-color:#B8B8BE"; class="auto-style2">
+                
+                <div>
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="background-color:#9D0000"; text-align:center>
+                <b style="color:#FFFFFF">
+                    Admin Dashboard
+                </b>
+            </td>
+        </tr>
+    </table>
+    </div>
+    </form>
+</body>
+</html>
+
+1 5 6
+
+*Default video demo link-discuss  also point 10
+
+Email on change request, accept and reject.

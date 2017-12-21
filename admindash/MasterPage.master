@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="admindash_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="icon" type="image/png" href="assets/img/abc.png" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My AD Admin</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <!-- GOOGLE FONTS-->
+    <link href="assets/css/StyleSheet.css" rel="stylesheet" />
+    <!-- ROW STYLES-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <script src="https://use.fontawesome.com/5e72b0c725.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div id="wrapper">
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="adjust-nav">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand"><i class="fa fa-television "></i>&nbsp;My AD Admin</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li><a href="Login.aspx" id="link1" runat="server" onserverclick="lk1_Click">Logout</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!-- /. NAV TOP  -->
+            <nav class="navbar-default navbar-side" role="navigation">
+                <div class="sidebar-collapse">
+                    <ul class="nav" id="main-menu">
+                        <li class="text-center user-image-back">
+                            <img src="assets/img/find_user.png" class="img-responsive" />
+
+                        </li>
+
+
+
+                        <li>
+                            <a href="Requests.aspx"><i class="fa fa-envelope "></i>Requests</a>
+                        </li>
+
+                        <li>
+                            <a href="Users.aspx"><i class="fa fa-users "></i>Users</a>
+                        </li>
+
+
+
+                    </ul>
+
+                </div>
+
+            </nav>
+            <!-- /. NAV SIDE  -->
+            <div id="page-wrapper">
+
+
+                <div id="page-inner">
+
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <!-- /. PAGE INNER  -->
+            </div>
+            <!-- /. PAGE WRAPPER  -->
+        </div>
+        <!-- /. WRAPPER  -->
+        <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+        <!-- JQUERY SCRIPTS -->
+        <script src="assets/js/jquery-1.10.2.js"></script>
+        <!-- BOOTSTRAP SCRIPTS -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- METISMENU SCRIPTS -->
+        <script src="assets/js/jquery.metisMenu.js"></script>
+        <!-- CUSTOM SCRIPTS -->
+        <script src="assets/js/custom.js"></script>
+
+
+    </form>
+</body>
+</html>
